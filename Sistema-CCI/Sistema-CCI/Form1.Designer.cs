@@ -1,6 +1,6 @@
 ﻿namespace Sistema_CCI
 {
-    partial class Form1
+    partial class formPrueba
     {
         /// <summary>
         /// Required designer variable.
@@ -33,7 +33,7 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(62, 63);
+            this.button1.Location = new System.Drawing.Point(71, 56);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(148, 34);
             this.button1.TabIndex = 0;
@@ -41,14 +41,16 @@
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
-            // Form1
+            // formPrueba
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(282, 168);
+            this.ClientSize = new System.Drawing.Size(287, 176);
             this.Controls.Add(this.button1);
-            this.Name = "Form1";
+            this.Name = "formPrueba";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
 
         }

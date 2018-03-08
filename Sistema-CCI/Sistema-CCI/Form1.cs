@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Sistema_CCI
 {
-    public partial class Form1 : Form
+    public partial class formPrueba : Form
     {
-        public Form1()
+        public formPrueba()
         {
             InitializeComponent();
         }
@@ -20,6 +20,11 @@ namespace Sistema_CCI
         private void button1_Click(object sender, EventArgs e)
         {
             MessageBox.Show("Esta es una prueba");
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            this.StartPosition = FormStartPosition.CenterScreen;
         }
     }
 }
